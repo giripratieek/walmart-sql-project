@@ -19,8 +19,8 @@ SELECT COUNT(DISTINCT branch) AS distinct_branch_count
 FROM walmart;
 select min(quantity) from walmart;
 
--- #1bussiness problem 
--- find the different payment method and number of trancation,number of qty sold
+-- #1 bussiness problem 
+-- find the different payment method and number of trancation,number of quantity sold
 
 select
 payment_method,
